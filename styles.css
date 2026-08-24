@@ -129,7 +129,7 @@ p {
 /* Efeito hover do botão secundário */
 .btn-secondary:hover {
     opacity: 0.8;
-    box-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 50px #ffffff;
 }
 
 .btn-secondary:active {
@@ -163,6 +163,10 @@ p {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--black);
+}
+
+.logo:hover {
+    color: var(--gray);
 }
 
 
