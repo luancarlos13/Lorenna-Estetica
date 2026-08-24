@@ -24,8 +24,8 @@ html {
 /* Configurações base do body */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: var(--black);
-    color: var(--text);
+    background-color: var(--white);
+    color: var(--black);
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -103,7 +103,7 @@ p {
     transition: var(--transition);
     border: none;
     gap: 8px;
-    color: var(--white);
+    color: var(--black);
 }
 
 /* Botão principal (destaque) */
@@ -145,7 +145,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background: var(--black);
+    background: var(--white);
     box-shadow: var(--shadow);
     z-index: 1000; /* Fica acima de todo conteúdo */
     padding: 15px 0;
@@ -162,12 +162,9 @@ p {
 .logo {
     font-size: 1.5rem;
     font-weight: 800;
-    color: var(--white);
+    color: var(--black);
 }
 
-.logo:hover {
-    color: var(--gray);
-}
 
 /* Menu de navegação */
 .nav-menu {
@@ -179,7 +176,7 @@ p {
 /* Links do menu */
 .nav-menu a {
     font-weight: 500;
-    color: var(--white);
+    color: var(--black);
     transition: var(--transition);
     position: relative;
 }
@@ -407,22 +404,19 @@ section {
 }
 
 .section-header h2 {
-    color: var(--white);
-}
-
-.section-header h2:hover {
-    color: var(--gray);
+    color: var(--black);
     cursor: pointer;
 }
 
+
 .section-header p {
     font-size: 1.125rem;
-    color: var(--white);
+    color: var(--black);
 }
 
 /* ========== 8. SEÇÃO SOBRE ========== */
 .sobre {
-    background: var(--black);
+    background: var(--white);
 }
 
 /* Grid da seção sobre */
@@ -455,7 +449,7 @@ section {
 .sobre-text p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: var(--white);
+    color: var(--black);
 }
 
 /* Features da seção sobre */
@@ -467,7 +461,7 @@ section {
 /* ========== GALERIA ========== */
 /* Grid de imagens da galeria */
 .galeria {
-    background: var(--black);
+    background: var(--white);
     padding: 100px 0;
 }
 
@@ -524,7 +518,7 @@ section {
 
 /* ========== 9. SEÇÃO SERVIÇOS ========== */
 .servicos {
-    background: var(--black);
+    background: var(--white);
 }
 
 /* Grid de cards de serviços */
@@ -589,7 +583,7 @@ section {
 
 /* ========== 10. SEÇÃO DESTAQUES ========== */
 .destaques {
-    background: var(--black);
+    background: var(--white);
 }
 
 /* Grid de destaques */
@@ -691,7 +685,7 @@ section {
 
 /* Card de benefício */
 .beneficio-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--black);
     backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: var(--radius);
@@ -701,8 +695,7 @@ section {
 }
 
 .beneficio-card:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-5px);
+   transform: translateY(-5px);
 }
 
 .beneficio-icon {
@@ -799,7 +792,7 @@ section {
 
 /* ========== 14. SEÇÃO CONTATO ========== */
 .contato {
-    background: var(--black);
+    background: var(--white);
 }
 
 /* Grid do contato */
@@ -843,19 +836,19 @@ section {
 }
 
 .contact-link {
-    color: var(--white);
+    color: var(--black);
     overflow-wrap: anywhere;
 }
 
 
 .info-item h4 {
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 5px;
 }
 
 .info-item p {
     margin: 0;
-    color: var(--white);
+    color: var(--black);
 }
 
 /* Container do mapa */
@@ -914,8 +907,8 @@ section {
 
 /* ========== 15. FOOTER ========== */
 .footer {
-    background: var(--black);
-    color: var(--white);
+    background: var(--white);
+    color: var(--black);
     padding: 60px 0 20px;
 }
 
@@ -1074,7 +1067,7 @@ section {
     .btn {
         padding: 12px 20px;
         font-size: 0.9rem;
-        color: var(--white);
+        color: var(--black);
     }
 
     /* Botões empilhados */
