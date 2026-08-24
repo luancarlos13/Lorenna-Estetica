@@ -219,7 +219,7 @@ p {
     display: block;
     width: 25px;
     height: 3px;
-    background: var(--white);
+    background: var(--black);
     border-radius: 3px;
     transition: var(--transition);
 }
@@ -287,7 +287,7 @@ p {
 }
 
 .hero .stat-number {
-    color: var(--secondary);
+    color: violet;
 }
 
 .hero .stat-label {
@@ -323,12 +323,15 @@ p {
 
 /* Estatísticas do hero */
 .hero-stats {
-    display: flex;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
 }
 
 .stat {
     text-align: center;
+    min-width: 0;
 }
 
 .stat-number {
@@ -984,7 +987,7 @@ section {
         top: 70px;
         left: 0;
         right: 0;
-        background: var(--black);
+        background: var(--white);
         flex-direction: column;
         padding: 30px;
         gap: 20px;
@@ -995,7 +998,7 @@ section {
     }
 
     .nav-menu a {
-        color: var(--white);
+        color: var(--black);
     }
 
     .nav-menu a:hover {
@@ -1032,7 +1035,7 @@ section {
     }
 
     .hero-stats {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
