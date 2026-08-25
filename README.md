@@ -1,6 +1,6 @@
 ## 📌 Sobre o projeto
 
-O Lorenna Paula – Estética Facial é uma landing page profissional desenvolvida para apresentar os serviços de estética facial de forma moderna, elegante e intuitiva. O projeto foi pensado para transmitir credibilidade, cuidado e profissionalismo, além de facilitar o contato entre a profissional e suas clientes.
+Lorenna Paula – Estética Facial é uma landing page profissional desenvolvida para apresentar os serviços de estética facial de forma moderna, elegante e intuitiva. O projeto foi pensado para transmitir credibilidade, cuidado e profissionalismo, além de facilitar o contato entre a profissional e suas clientes.
 
 ## 🎯 Objetivo
 
